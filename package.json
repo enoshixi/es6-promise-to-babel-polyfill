@@ -1,0 +1,22 @@
+{
+  "name": "es6-promise-to-babel-polyfill",
+  "version": "1.0.1",
+  "description": "An es6-promise stub that uses babel-polyfill instead.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enoshixi/es6-promise-to-babel-polyfill.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/enoshixi/es6-promise-to-babel-polyfill/issues"
+  },
+  "homepage": "https://github.com/enoshixi/es6-promise-to-babel-polyfill#readme",
+  "peerDependencies": {
+    "babel-polyfill": "*"
+  }
+}
