@@ -1,6 +1,8 @@
 require("babel-polyfill");
 
-Promise.polyfill = () => { /* noop */ };
+Promise.polyfill = function () { 
+	/* noop */ 
+};
 Promise.Promise = Promise;
 
 module.exports = Promise;
